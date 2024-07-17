@@ -1,0 +1,56 @@
+/* static/styleResult.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Azul marino oscuro */
+    color: #fff; /* Color de texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #000; /* Color de texto dentro del contenedor */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#results {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center;
+    color: #000; /* Color de texto dentro de los resultados */
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+}
+
+#results p {
+    margin-bottom: 20px; /* Separación entre el texto y el botón "Volver" */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #28a745; /* Verde */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #218838; /* Verde más oscuro al hacer hover */
+}

@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Azul marino oscuro */
+    color: #fff; /* Color de texto blanco */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #000; /* Color de texto dentro del contenedor */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo del formulario */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #000; /* Color de texto dentro del formulario */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333; /* Color de las etiquetas */
+}
+
+input {
+    width: calc(100% - 16px); /* Ancho del input menos el padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Verde */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Verde más oscuro al hacer hover */
+}
+
+#results {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center;
+    color: #000; /* Color de texto dentro de los resultados */
+}

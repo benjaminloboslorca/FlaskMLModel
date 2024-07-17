@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Predicción de Resultados de Partida</title>
+</head>
+<body>
+    <h1>Predicción de Resultados de Partida</h1>
+    <h2>Modelo de Regresión</h2>
+    
+    <!-- Formulario para predicción de MatchKills (regresión) -->
+    <form action="/predict_regression" method="post">
+        <label for="MatchHeadshots">MatchHeadshots: </label>
+        <input type="text" id="MatchHeadshots" name="MatchHeadshots"><br><br>
+        
+        <label for="MatchFlankKills">MatchFlankKills: </label>
+        <input type="text" id="MatchFlankKills" name="MatchFlankKills"><br><br>
+        
+        <label for="MatchAssists">MatchAssists: </label>
+        <input type="text" id="MatchAssists" name="MatchAssists"><br><br>
+        
+        <label for="RoundKills">RoundKills: </label>
+        <input type="text" id="RoundKills" name="RoundKills"><br><br>
+        
+        <label for="PrimaryPistol">PrimaryPistol: </label>
+        <input type="text" id="PrimaryPistol" name="PrimaryPistol"><br><br>
+        
+        <label for="MatchWinner_True">MatchWinner_True: </label>
+        <input type="text" id="MatchWinner_True" name="MatchWinner_True"><br><br>
+        
+        <input type="submit" value="Predecir MatchKills">
+    </form>
+    
+    <hr>
+
+    <h2>Modelo de Clasificación</h2>
+    <!-- Formulario para predicción de MatchWinner (clasificación) -->
+    <form action="/predict_classification" method="post">
+        <label for="RoundWinner_True">RoundWinner_True:</label>
+        <input type="text" id="RoundWinner_True" name="RoundWinner_True"><br><br>
+        
+        <label for="Survived_False">Survived_False:</label>
+        <input type="text" id="Survived_False" name="Survived_False"><br><br>
+        
+        <label for="PrimaryPistol">PrimaryPistol:</label>
+        <input type="text" id="PrimaryPistol" name="PrimaryPistol"><br><br>
+        
+        <label for="MatchAssists">MatchAssists:</label>
+        <input type="text" id="MatchAssists" name="MatchAssists"><br><br>
+        
+        <label for="RoundStartingEquipmentValue">RoundStartingEquipmentValue:</label>
+        <input type="text" id="RoundStartingEquipmentValue" name="RoundStartingEquipmentValue"><br><br>
+        
+        <label for="MatchKills">MatchKills:</label>
+        <input type="text" id="MatchKills" name="MatchKills"><br><br>
+        
+        <label for="TeamStartingEquipmentValue">TeamStartingEquipmentValue:</label>
+        <input type="text" id="TeamStartingEquipmentValue" name="TeamStartingEquipmentValue"><br><br>
+        
+        <input type="submit" value="Predecir MatchWinner">
+    </form>
+</body>
+</html>
